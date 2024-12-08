@@ -21,9 +21,9 @@ const Footer = () => {
                 key='footer-copyright'
                 className='footer-copyright'
             >
-                {`© ${new Date().getFullYear()} Mattermost Inc.`}
+                {`© ${new Date().getFullYear()} Black Phoenix Tech Inc.`}
             </span>
-            {AboutLink && (
+            {/* {AboutLink && (
                 <ExternalLink
                     key='footer-link-about'
                     className='footer-link'
@@ -62,7 +62,7 @@ const Footer = () => {
                 >
                     {formatMessage({id: 'web.footer.help', defaultMessage: 'Help'})}
                 </ExternalLink>
-            )}
+            )} */}
         </div>
     );
 };

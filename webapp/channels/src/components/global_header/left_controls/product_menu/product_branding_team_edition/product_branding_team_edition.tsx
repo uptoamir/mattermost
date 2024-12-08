@@ -1,10 +1,10 @@
 // Copyright (c) 2015-present Mattermost, Inc. All Rights Reserved.
 // See LICENSE.txt for license information.
 
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import Logo from 'components/common/svg_images_components/logo_dark_blue_svg';
+import Logo from "components/common/svg_images_components/logo_dark_blue_svg";
 
 const ProductBrandingTeamEditionContainer = styled.div`
     display: flex;
@@ -31,7 +31,7 @@ const Badge = styled.div`
     margin-left: 12px;
     background: rgba(var(--sidebar-text-rgb), 0.08);
     color: rgba(var(--sidebar-text-rgb), 0.75);
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 10px;
     font-weight: 600;
     letter-spacing: 0.025em;
@@ -41,11 +41,8 @@ const Badge = styled.div`
 const ProductBrandingTeamEdition = (): JSX.Element => {
     return (
         <ProductBrandingTeamEditionContainer tabIndex={0}>
-            <StyledLogo
-                width={116}
-                height={20}
-            />
-            <Badge>{'FREE EDITION'}</Badge>
+            <StyledLogo className="pb-px pt-1" width={60} height={41} />
+            <Badge>{"Black Phoenix Chat System"}</Badge>
         </ProductBrandingTeamEditionContainer>
     );
 };
