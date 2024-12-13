@@ -3,4 +3,4 @@
 # variables using the same names found here.
 
 # Run the client in the background
-RUN_CLIENT_IN_BACKGROUND ?= true
+RUN_CLIENT_IN_BACKGROUND ?= false
